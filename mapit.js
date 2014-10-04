@@ -6,5 +6,6 @@ function mapit (f, o) {
     f(k, o[k]);
 }
 
-module.exports = mapit;
+Object.prototype.mapit = mapit;
 
+module.exports = mapit;
