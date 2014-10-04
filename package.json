@@ -2,5 +2,12 @@
 {
   "name": "mapit",
   "version": "0.0.1",
-  "description": "Add some sugar to a commonly used pattern"
+  "description": "Add some sugar to a commonly used pattern",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "4.0.4"
+  },
+  "scripts": {
+    "test": "node ./test.js"
+  }
 }
