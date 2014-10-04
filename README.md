@@ -1,5 +1,7 @@
 
 # mapit
+[![](https://travis-ci.org/AjayMT/mapit.js.svg?branch=master)](http://travis-ci.org/AjayMT/mapit.js)
+
 Are you tired of doing this?
 
 ```javascript
