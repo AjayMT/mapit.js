@@ -1,9 +1,9 @@
 
 /* global module */
 
-function mapit (f, o) {
+function mapit (f, o, thisArg) {
   for (var k in o)
-    f(k, o[k]);
+    f.apply(thisArg || this, [k, o[k]]);
 }
 
 Object.prototype.mapit = mapit;

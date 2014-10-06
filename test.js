@@ -7,7 +7,7 @@ var mapit = require('./mapit.js');
 var app = {
   opts: {},
   set: function (k, v) {
-    app.opts[k] = v;
+    this.opts[k] = v;
   }
 }
 
@@ -22,7 +22,7 @@ app.opts.foo.should.be.true;
 mapit(app.set, {
   'baz': 'bar',
   'quux': {}
-});
+}, app);
 
 app.opts.baz.should.eql('bar');
 app.opts.quux.should.eql({});

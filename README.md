@@ -44,7 +44,7 @@ You can even use it like this:
 // It doesn't have to be app.mapit
 mapit(app.set, {
   'abc': 'xyz'
-})
+}, app);
 ```
 
 **Note**: express was just an example. mapit works everywhere.
