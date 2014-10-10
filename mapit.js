@@ -8,4 +8,5 @@ function mapit (f, o, thisArg) {
 
 Object.prototype.mapit = mapit;
 
-module.exports = mapit;
+if (typeof module === 'object')
+  module.exports = mapit;
