@@ -1,7 +1,7 @@
 
 {
   "name": "mapit",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "Add some sugar to a commonly used pattern",
   "license": "MIT",
   "main": "./mapit.js",
